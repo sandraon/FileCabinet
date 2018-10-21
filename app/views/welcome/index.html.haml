@@ -1,1 +1,20 @@
-%h1 Voila! This is the Placeholder!
+#banner
+    .banner_content
+        %h1 File Cabinet
+        %p Your life's work. Organized, always.
+        %button= link_to "Enter", new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Organize
+                %p Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Id cursus metus aliquam eleifend mi in nulla. Tristique senectus et netus et malesuada. 
+                Semper eget duis at tellus at. Tellus orci ac auctor augue mauris. 
+                Fermentum iaculis eu non diam phasellus vestibulum lorem sed.
+
+#bottom_cta
+    .wrapper
+        %h2 Go ahead!
+        %br
+        %button= link_to "Join Now", new_user_registration_path
